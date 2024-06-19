@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Estilos Clase -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Grid I</title>
+</head>
+
+<body>
+  <main class="max-width">
+    <h1>
+      CSS Grid I
+     
+    </h1>
+    <section class="info-clase">
+      <h2>grid-template-columns</h2>
+      <p class="my">
+        Esta propiedad define el nombre y las funciones de tamaño de las
+        columnas
+      </p>
+
+      <p class="code">grid-template-columns: 100px 100px</p>
+      <div class="fondo">
+        <div class="grid-column">
+          <div class="item">Elemento 1</div>
+          <div class="item">Elemento 2</div>
+          <div class="item">Elemento 3</div>
+          <div class="item">Elemento 4</div>
+        </div>
+      </div>
+    </div>
+<!--
+        <p class="">
+          Para agregar un espacio podemos usar la propiedad gap
+        </p>
+
+        <div class="grid-column gap">
+          <div class="item">Elemento 1</div>
+          <div class="item">Elemento 2</div>
+        </div>
+      </div>-->
+
+      <h2>grid-template-rows</h2>
+      <p class="">
+        Esta propiedad define el nombre y las funciones de tamaño de las
+        filas.
+      </p>
+      <p class="code">grid-template-columns: 100px 300px</p>
+      <p class="code">grid-template-rows: 250px 80px</p>
+      <p class="code">gap: 10px</p>
+
+      <div class="fondo">
+        <div class="grid-row">
+          <div class="item">Item 1</div>
+          <div class="item">Item 2</div>
+          <div class="item">Item 3</div>
+          <div class="item">Item 4</div>
+          <div class="item">Item 5</div>
+          <div class="item">Item 6</div>
+        </div>
+      </div>
+
+      <!-- fr -->
+  <h2>Unidad fr</h2>
+      <p class="">
+        <b>fr (fraction)</b>
+        representa una fracción de espacio restante.
+      </p>
+      <div class="">
+        <div class="grid-fr">
+          <div class="item">Item 1</div>
+          <div class="item">Item 2</div>
+          <div class="item">Item 3</div>
+          <div class="item">Item 4</div>
+        </div>
+      </div> 
+
+      <!-- repeat -->
+   <h2>Repeat</h2>
+
+      <div class="code">grid-template-columns:repeat(2, 250px)</div>
+      <div class="code">grid-template-rows:repeat(2, 100px)</div>
+      <div class="">
+        <div class="grid-repeat">
+          <div class="item">Item 1</div>
+          <div class="item">Item 2</div>
+          <div class="item">Item 3</div>
+          <div class="item">Item 4</div>
+          <div class="item">Item 5</div>
+          <div class="item">Item 6</div>
+          <div class="item">Item 7</div>
+          <div class="item">Item 8</div>
+        </div>
+      </div>
+
+  </main>
+</body>
+
+</html>
